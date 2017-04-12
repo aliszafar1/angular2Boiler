@@ -1,0 +1,46 @@
+{
+  "name": "angular2Boiler",
+  "version": "0.0.1",
+  "scripts": {
+    "clean": "rm -rf ./dist",
+    "build:prod": "webpack --progress --optimize-minimize",
+    "serve": "webpack-dev-server --progress --inline --profile --colors --display-error-details --history-api-fallback true --open",
+    "start": "npm run clean && npm run serve"
+  },
+  "author": {
+    "name": "Ali Zafar",
+    "github": "http://github.com/aliszafar1"
+  },
+  "dependencies": {
+    "@angular/common": "*",
+    "@angular/compiler": "*",
+    "@angular/core": "*",
+    "@angular/forms": "*",
+    "@angular/http": "*",
+    "@angular/platform-browser": "*",
+    "@angular/platform-browser-dynamic": "*",
+    "@angular/router": "*",
+    "angular-in-memory-web-api": "*",
+    "angularfire2": "*",
+    "core-js": "*",
+    "firebase": "*",
+    "loaders.css": "*",
+    "reflect-metadata": "*",
+    "rxjs": "*",
+    "zone.js": "*"
+  },
+  "devDependencies": {
+    "@types/core-js": "*",
+    "copy-webpack-plugin": "*",
+    "html-webpack-plugin": "*",
+    "json-loader": "*",
+    "node-sass": "*",
+    "raw-loader": "*",
+    "sass-loader": "*",
+    "ts-loader": "*",
+    "typescript": "*",
+    "typings": "*",
+    "webpack": "*",
+    "webpack-dev-server": "*"
+  }
+}
